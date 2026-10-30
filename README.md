@@ -9,19 +9,25 @@ Build an image-classification model that learns visual features from actor image
 # Dataset Structure
 The dataset is organized into TRAIN, VAL, and TEST folders. Each contains one folder per actor.
 
+## Dataset Structure
+
+The dataset is organized into TRAIN, VAL, and TEST folders. Each folder contains images of three actors.
+
+```text
 dataset/
-    TRAIN/
-        AJITH/
-        SURIYA/
-        VIJAY/
-    VAL/
-        AJITH/
-        SURIYA/
-        VIJAY/
-    TEST/
-        AJITH/
-        SURIYA/
-        VIJAY/
+├── TRAIN/
+│   ├── AJITH/
+│   ├── SURIYA/
+│   └── VIJAY/
+├── VAL/
+│   ├── AJITH/
+│   ├── SURIYA/
+│   └── VIJAY/
+└── TEST/
+    ├── AJITH/
+    ├── SURIYA/
+    └── VIJAY/
+```
 
 
 TRAIN: Used to train the CNN model.
