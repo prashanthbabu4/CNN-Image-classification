@@ -25,7 +25,9 @@ dataset/
 
 
 TRAIN: Used to train the CNN model.
+
 VAL: Used to monitor model performance during training.
+
 TEST: Used for final evaluation on separate images.
 
 
